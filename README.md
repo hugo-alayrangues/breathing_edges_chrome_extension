@@ -3,9 +3,10 @@
 ## Todo
 
 - Setup default parameters (color and interval) - breathing.js (line 22)
-- Integrate new @keyframes for edges breathing
 
 ## Done
+
+- Optimization : new @keyframes for edges breathing (see https://github.com/hugo-alayrangues/keyframes_comparison for details)
 
 - Bug fixed : breathing interruption when clicking on URL bar (fix : remove
  window.addEventListener('blur', unfocus); in breathing.js)

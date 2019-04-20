@@ -13,7 +13,7 @@
 - Error corrected : "Uncaught Error: Extension context invalidated." (fix : if (typeof chrome.app.isInstalled!=='undefined')
 in popup.js)
 
-- Optimization : update function (in breathing.js) used only when necessary, to avoid re-injection of all elements at 
+- Optimization : **update** function (in breathing.js) used only when necessary, to avoid re-injection of all elements at 
 each focus of the page (mean : use of a new variable "updated" and "event" variable of eventListeners)
 
 - Code update

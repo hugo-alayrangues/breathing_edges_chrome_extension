@@ -1,5 +1,7 @@
 # Breathing Edges - Google Chrome Extension
 
+Source : https://github.com/PervasiveWellbeingTech/Subliminal-ChromeExtension
+
 ## Todo
 
 - Setup default parameters (color and interval) - breathing.js (line 22)

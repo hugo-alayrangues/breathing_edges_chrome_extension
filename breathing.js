@@ -27,7 +27,7 @@ function update(event)
             enabled: false,
             color: "",
             opacity: 1.0,
-            interval: -1
+            interval: 4
         }, function(items) {
             let divs = document.body.querySelectorAll("#breathebox"); // check if there's already a box
             if (divs.length < 1 && items.enabled)

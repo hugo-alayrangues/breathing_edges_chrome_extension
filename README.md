@@ -4,9 +4,9 @@ Source : https://github.com/PervasiveWellbeingTech/Subliminal-ChromeExtension
 
 ## Todo
 
-- Setup default parameters (color and interval) - breathing.js (line 22)
-
 ## Done
+
+- UX : default parameter setup for interval (4 was actually -1 so we could think of a bug because breath was locked) and small borders added for boxes in the popup (to keep visibility when the chosen color is white)
 
 - Optimization : new @keyframes for edges breathing (see https://github.com/hugo-alayrangues/keyframes_comparison for details)
 
